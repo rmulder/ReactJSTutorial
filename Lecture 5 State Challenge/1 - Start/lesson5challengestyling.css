@@ -10,11 +10,13 @@ body {
   padding: 20px;
   text-align: center;
 }
+
 .container h1 {
   margin: 0;
   padding: 20px;
   font-size: 36px;
 }
+
 .container .btn {
   border: 0;
   padding: 15px;
@@ -33,7 +35,7 @@ body {
 }
 
 .btn.blue-btn:hover {
-   background-color: #6FC6FF;
+  background-color: #6FC6FF;
 }
 
 .btn.blue-btn {
@@ -42,7 +44,7 @@ body {
 }
 
 .btn.blue-btn:hover {
-   background-color: #6FC6FF;
+  background-color: #6FC6FF;
 }
 
 .btn.green-btn {
