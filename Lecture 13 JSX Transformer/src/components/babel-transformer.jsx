@@ -30,7 +30,7 @@ export default class BabelTransformer extends React.Component {
       <div>
         <div className="container">
           <textarea id="input" onChange={this.transformJSX} defaultValue={this.state.inputJSX}></textarea>
-          <div id="output" >{this.state.outputJS}</div>
+          <div id="output" ><pre>{this.state.outputJS}</pre></div>
         </div>
         <footer>{this.state.error}</footer>
       </div>
